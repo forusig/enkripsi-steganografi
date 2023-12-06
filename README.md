@@ -23,6 +23,8 @@ menyisipkan enkripsi one time pad ke dalam image
    - [Hasil](#hasil)
 2.  [menggabungkan enkripsi one time pad dengan steganografi metode lsb](#menggabungkan-enkripsi-one-time-pad-dengan-steganografi-metode-lsb)
     - [hasil penggabungan](#hasil-penggabungan)
+3. [mengimplementasikannya ke dalam web](#mengimplementasikannya-ke-dalam-web)
+   - [hasil dalam web](#hasil-dalam-web)
 
 
 # implementasi steganografi metode lsb
@@ -127,3 +129,4 @@ hasil foto nya
 
 ![image_secret_20231206112357](https://github.com/forusig/enkripsi-steganografi/assets/92717505/b35fc55d-b197-41a5-9a20-c99c5f6d8f92)
 
+## Terimakasih
