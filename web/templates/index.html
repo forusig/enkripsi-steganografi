@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Steganography Encryption</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 50px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        form {
+            width: 50%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Steganography Encryption</h1>
+    <form action="/enkripsi" method="post" enctype="multipart/form-data">
+        <label for="plaintext">Plaintext:</label>
+        <input type="text" name="plaintext" required><br>
+        <label for="key">Kunci:</label>
+        <input type="text" name="key" required><br>
+        <label for="image">Pilih Foto:</label>
+        <input type="file" name="image" accept="image/*" required><br>
+        <button type="submit">Enkripsi</button>
+    </form>
+</body>
+</html>
