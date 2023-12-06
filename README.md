@@ -40,19 +40,12 @@ Jika ingin melakukan deskripsi pesan pada gambar yang sudah terenkripsi anda bis
 - gambar yang sudah ter encrypt kemudian di tampilkan menggunakan ``print(clear_message)``
   
   ### contoh implementasi
+  ada pada file [steganografi.py](https://github.com/forusig/enkripsi-steganografi/blob/b44fe0b10d63ea91120ae26a0d75a98dc3f481e7/steganografi.py)
+  
   gambar awal
   
   ![wonu](https://github.com/forusig/enkripsi-steganografi/assets/92717505/79ae890c-1d3b-44af-9ff6-c16e58440956)
-   
-   ```
-   from stegano import lsb
 
-   secret = lsb.hide("./wonu.png", "Hello Wonwoo")
-  secret.save("./new_wonu.png")
-
-  clear_message = lsb.reveal("./new_wonu.png")
-  print(clear_message)
-  ```
 ### hasil
 ![new_wonu](https://github.com/forusig/enkripsi-steganografi/assets/92717505/6dc10845-9fca-4b5b-914e-29fc9123ad0e)
 
@@ -92,7 +85,11 @@ hasil_deskripsi_karakter = [kodeascii(biner_ke_desimal(biner)) for biner in decr
 decimal_results = [biner_ke_desimal(b) for b in result]
 ascii_results = [kodeascii(d) for d in decimal_results]
 ```
+ada pada file [otp.py](https://github.com/forusig/enkripsi-steganografi/blob/b44fe0b10d63ea91120ae26a0d75a98dc3f481e7/otp.py)
 - lalu gabungkan program one time pad dengan stegano yang sudah di buat
+  
+ada pada file [otpste.py](https://github.com/forusig/enkripsi-steganografi/blob/b44fe0b10d63ea91120ae26a0d75a98dc3f481e7/otpste.py)
+
 gambar awal
 
  ![bird](https://github.com/forusig/enkripsi-steganografi/assets/92717505/4b39ab57-0f19-4d47-9e28-d3deb1fcd0c3)
@@ -102,6 +99,8 @@ gambar awal
 ![Screenshot 2023-12-06 110257](https://github.com/forusig/enkripsi-steganografi/assets/92717505/7bdd8feb-b2f8-4d99-a69a-af68019c1cfc)
 
 # mengimplementasikannya ke dalam web 
+ada pada folder [web](https://github.com/forusig/enkripsi-steganografi/tree/b44fe0b10d63ea91120ae26a0d75a98dc3f481e7/web)
+
 ![Screenshot 2023-12-06 112158](https://github.com/forusig/enkripsi-steganografi/assets/92717505/d2d385f1-807d-436a-aeaa-4b9076b3297f)
 
 gambar awal
