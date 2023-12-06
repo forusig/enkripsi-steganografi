@@ -28,7 +28,7 @@ menyisipkan enkripsi one time pad ke dalam image
 
 
 # implementasi steganografi metode lsb
-- pastikan anda sudah menginstall library stegano terlebih dahulu :
+- pastikan sudah menginstall library stegano terlebih dahulu :
 ``` pip install stegano ```
 - lalu buatlah file untuk menyimpan foto dan program
 - Mulailah dengan mengimpor library ke dalam program python
@@ -120,7 +120,7 @@ uploaded_file = request.files['image']
 ```
 ![Screenshot 2023-12-06 112406](https://github.com/forusig/enkripsi-steganografi/assets/92717505/e57e0a57-a891-4658-8b7d-07783a2a1fd3)
 
-jika membukanya dengan terminal 
+jika mwmbaca foto yang sudah te encrypt menggunakan terminal
 
 ![Screenshot 2023-12-06 113053](https://github.com/forusig/enkripsi-steganografi/assets/92717505/e847fc08-99c3-4c05-9b6c-843913548af3)
 
