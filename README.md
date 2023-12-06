@@ -100,4 +100,30 @@ gambar awal
 ![Screenshot 2023-12-06 110257](https://github.com/forusig/enkripsi-steganografi/assets/92717505/7bdd8feb-b2f8-4d99-a69a-af68019c1cfc)
 
 # mengimplementasikannya ke dalam web 
+![Screenshot 2023-12-06 112158](https://github.com/forusig/enkripsi-steganografi/assets/92717505/d2d385f1-807d-436a-aeaa-4b9076b3297f)
+
+gambar awal
+
+![wonu](https://github.com/forusig/enkripsi-steganografi/assets/92717505/dfc69d30-4847-4c74-bdae-3d816e11809f)
+
+### hasil dalam web
+hasil dalam web akan di simpan dengan format date 
+```
+uploaded_file = request.files['image']
+    if uploaded_file.filename != '':
+        import datetime
+        unique_filename = f"image_secret_{datetime.datetime.now().strftime('%Y%m%d%H%M%S')}.png"
+        file_path = os.path.join(app.config['UPLOAD_FOLDER'], unique_filename)
+
+        uploaded_file.save(file_path)
+```
+![Screenshot 2023-12-06 112406](https://github.com/forusig/enkripsi-steganografi/assets/92717505/e57e0a57-a891-4658-8b7d-07783a2a1fd3)
+
+jika membukanya dengan terminal 
+
+![Screenshot 2023-12-06 113053](https://github.com/forusig/enkripsi-steganografi/assets/92717505/e847fc08-99c3-4c05-9b6c-843913548af3)
+
+hasil foto nya
+
+![image_secret_20231206112357](https://github.com/forusig/enkripsi-steganografi/assets/92717505/b35fc55d-b197-41a5-9a20-c99c5f6d8f92)
 
